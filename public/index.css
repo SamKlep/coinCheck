@@ -92,11 +92,6 @@ h1 {
 }
 
 #title-logo {
-    display: inline-block;
-    justify-content: center;
-    padding: 20px;
-    margin: 20px;
-    text-align: center;
     text-shadow: 8px 8px magenta;
 }
 
@@ -108,5 +103,10 @@ h1 {
     background-color: rgb(191, 153, 245);
     height:20px;
     width:40px;
+}
+
+.newsletter {
+    display: inline-block;
+    justify-content: center;
 }
 

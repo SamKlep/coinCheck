@@ -10,21 +10,18 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(__dirname + '/public'));
 
 // get all todos
-app.get('/names', function(req, res) {
-  models.names.findAll({}).then(function(names) {
-    res.json(names);
-  });
+app.get('/', function(req, res, next) {
+  console.log(req.params.id)
+})
+
+app.post("/name", function (req, response) {
+  models.name.create({ name: req.body.name, email: req.body.email})
+    .then(function (name) {
+      response.send(name)
+    });
 });
 
-// add new name
-app.post('/name', function(req, res) {
-  models.user.create({
-    name: req.body.name,
-    email: req.body.email
-  }).then(function(name) {
-    res.json(name);
-  });
-});
+
 
 app.listen(3000, function () {
     console.log('server listening on port 3000');
