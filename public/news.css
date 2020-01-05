@@ -34,3 +34,9 @@
     animation-delay: 2s;
     animation-iteration-count: infinite;
   }
+
+  #navbutton-style {
+    background-color: rgb(191, 153, 245);
+    height:20px;
+    width:40px;
+}

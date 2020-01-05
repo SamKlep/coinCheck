@@ -64,3 +64,9 @@
      
       margin: 100px ;
   }
+
+  #navbutton-style {
+    background-color: rgb(191, 153, 245);
+    height:20px;
+    width:40px;
+}
