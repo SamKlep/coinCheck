@@ -9,17 +9,19 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 app.use(express.static(__dirname + '/public'));
 
-// get all todos
-app.get('/', function(req, res, next) {
-  console.log(req.params.id)
-})
+module.exports = (app, db) => {
 
-app.post("/name", function (req, response) {
-  models.name.create({ name: req.body.name, email: req.body.email})
-    .then(function (name) {
-      response.send(name)
+  //Get all names
+  app.get('/names', (req, res) => {
+    db.name.findAll()
+    .then(name => {
+      res.json(name);
     });
-});
+  });
+
+  
+
+}
 
 
 
