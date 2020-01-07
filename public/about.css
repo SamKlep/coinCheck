@@ -41,10 +41,7 @@
   }
 
   
-    .btn {
-        background-color: rgb(80, 61, 191);
-        border: rgb(224, 252, 120) solid 1px
-    }
+   
 
   .group:hover {
       color: yellow;
