@@ -8,7 +8,7 @@
 }
 
 .card:hover {
-    background-color: rgb(48, 85, 249);
+    background-color: rgb(83, 33, 168);
 }
 
 .card-body {
@@ -39,16 +39,18 @@
       font-size: 40px;
   }
 
-  .btn {
-      background-color: rgb(255, 255, 255);
-  }
+  
+    .btn {
+        background-color: rgb(80, 61, 191);
+        border: rgb(224, 252, 120) solid 1px
+    }
 
   .group:hover {
       color: yellow;
   }
 
   .card-body:hover {
-      background-color: rgb(164, 198, 242);
+      background-color: rgb(165, 137, 213);
       color: white;
   }
 

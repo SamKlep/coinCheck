@@ -1,10 +1,15 @@
+* {
+  color: black;
+}
+
+
 #news-wrapper {
-    border: solid black 1px;
-    background-color: black;
+   
+    background-color: rgb(83, 33, 168);
   }
 
 #news-body {
-  border: solid black 1px;
+  border: solid rgb(83, 33, 168) 3px;
   background-color: black;
 }
 
@@ -14,16 +19,16 @@
 }
 
 #news-header {
-  color:rgb(151, 152, 150);
+  color:aqua;
   font-size: 20px;
   padding-left: 40px;
   padding-right: 25px;
-  padding-top: 0px;
+  padding-top: 10px;
 }
 
 #news {
   padding-top: 0px;
-  color:white;
+  color:magenta;
   font-size: 15px;
   padding-left: 40px;
   padding-right: 25px;
