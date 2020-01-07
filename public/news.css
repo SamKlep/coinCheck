@@ -45,3 +45,10 @@
     height:20px;
     width:40px;
 }
+
+.hamburger {
+  width: 35px;
+  height: 5px;
+  background-color: rgb(186, 255, 47);
+  margin: 6px 0;
+}
